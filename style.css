@@ -388,6 +388,8 @@ nav ul {
   pointer-events: none;
 }
 
+/* Video Section */
+
 .video-section .text-block {
 	display: flex;
 	justify-content: space-between;
@@ -458,4 +460,19 @@ nav ul {
 
 .visited-button {
 	background-color: #333;
+}
+
+/* Gallery Section*/
+.gallery {
+  column-count: 3;
+  column-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 20px;
+  display: block;
 }
