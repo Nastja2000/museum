@@ -635,3 +635,104 @@ nav ul {
 .contacts-container img{
 	margin-left: 150px;
 }
+
+/* Footer */
+footer {
+	background-color: var(--dark-bg-color);
+	justify-items: center;
+}
+
+.footer-container {
+	color: var(--light-bg-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	width: 200px;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 25px;
+}
+
+.logo span {
+	font-family: 'Forum';
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 100%;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.footer-menu {
+	width: 1440px;
+	display: flex;
+	padding: 87px 0 50px 0;
+}
+
+.footer-menu a {
+	color: var(--light-bg-color);
+	text-decoration: none;
+	transition: color 0.3s ease;
+	font-family: 'Roboto';
+	font-weight: 200;
+	font-size: 22px;
+	line-height: 100%;
+	letter-spacing: 2px;
+}
+
+.footer-menu a:hover {
+	color: var(--gold-color);
+}
+
+.footer-menu nav ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 150px;
+	grid-row-gap: 25px;
+	margin: 0;
+	padding: 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.footer-menu nav {
+	margin: 0 397px 0 145px;
+}
+
+.social-network-link {
+	width: 48px;
+    height: 48px;
+    align-content: center;
+    border: 2px solid #666666;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.social-networks {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	gap: 25px;
+}
+
+.copyright-border {
+	width: 1920px;
+	border-top: 2px solid #666;
+}
+
+.copyright-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1440px;
+	font-family: 'Roboto';
+	font-weight: 200;
+	font-size: 22px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	padding: 50px 240px;
+}	
