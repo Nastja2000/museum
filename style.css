@@ -571,3 +571,16 @@ nav ul {
 	width: 175px;
 	align-items: end;
 }
+
+
+/* Parallax Section */
+.parallax {
+  background-image: url('./assests/images/grande-galerie.png');
+  width: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px;
+  position: relative;
+  z-index: 1;
+}
