@@ -479,7 +479,8 @@ nav ul {
 
 /* Tickets Section */
 
-.tickets-section .headers-contanier {
+.tickets-section .headers-contanier, 
+.contacts-section .headers-contanier{
 	border-bottom: 3px solid var(--dark-red-color);
 	margin-bottom: 75px;
 	padding-bottom: 25px;
@@ -575,12 +576,62 @@ nav ul {
 
 /* Parallax Section */
 .parallax {
-  background-image: url('./assests/images/grande-galerie.png');
-  width: auto;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 400px;
-  position: relative;
-  z-index: 1;
+	background-image: url('./assests/images/grande-galerie.png');
+	width: auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 400px;
+	position: relative;
+	z-index: 1;
+}
+
+/* Contacts Section */
+
+.contacts-section h2 {
+	margin: 0;
+}
+
+.contacts-container ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.contacts-container {
+	display: flex;
+	align-items: start;	
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+}
+
+.contacts-heading {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	margin-bottom: 50px;
+}
+
+.contacts li {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	margin-bottom: 25px;
+}
+
+.contacts li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.contacts-container img{
+	margin-left: 150px;
 }
